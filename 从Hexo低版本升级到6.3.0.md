@@ -127,3 +127,18 @@ added 1076 packages, and removed 1 package in 3m
 
 ```
 
+## 七、更新过期插件
+1. gulp-minify-css@1.2.4 -> gulp-clean-css
+
+>cd bulldoge.com
+
+>npm install gulp-clean-css --save-dev
+
+added 3 packages in 2m
+
+查找使用gulp-minify-css的地方，统一替换成gulp-clean-css
+
+
+
+
+   
