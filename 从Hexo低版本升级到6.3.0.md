@@ -138,7 +138,9 @@ added 3 packages in 2m
 
 查找使用gulp-minify-css的地方，统一替换成gulp-clean-css
 
+2. svgo@1.3.2 -> svgo@2.8.0
 
+将ulp-imagemin从package.json中配置为最新版本8.0.0，然后从项目目录npm install，从而间接升级svgo。
 
 
    
