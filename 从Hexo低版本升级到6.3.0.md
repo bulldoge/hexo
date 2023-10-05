@@ -149,6 +149,26 @@ added 3 packages in 2m
 
 升级方法：访问官网[https://instant.page](https://instant.page/)查看最新版本，浏览器直接输入[https://instant.page/5.2.0](https://instant.page/5.2.0)版本号，直接从官网获取代码，保存在本地服务器使用。
 
+2. clipboard2.0.4 -> clipboard2.0.11
+
+用途：复制内容到剪切板，无需flash、无需框架、小巧。
+
+升级办法：
+
+访问官网[https://clipboardjs.com](https://clipboardjs.com)查看最新版本，在官方提供的任意第三方CDN处直接浏览器下载，保存在本地服务器使用：
+
+[https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js](https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js)
+
+[https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js](https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js)
+
+[https://cdn.rawgit.com/zenorocha/clipboard.js/v2.0.11/dist/clipboard.min.js](https://cdn.rawgit.com/zenorocha/clipboard.js/v2.0.11/dist/clipboard.min.js)
+
+[https://rawcdn.githack.com/zenorocha/clipboard.js/v2.0.11/dist/clipboard.min.js](https://rawcdn.githack.com/zenorocha/clipboard.js/v2.0.11/dist/clipboard.min.js)
+
+[https://unpkg.com/clipboard@2/dist/clipboard.min.js](https://unpkg.com/clipboard@2/dist/clipboard.min.js)
+
+[https://cdn.statically.io/gh/zenorocha/clipboard.js/v2.0.11/dist/clipboard.min.js](https://cdn.statically.io/gh/zenorocha/clipboard.js/v2.0.11/dist/clipboard.min.js)
+
 ## 常用网站
 
 1.npmjs
