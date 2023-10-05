@@ -142,5 +142,26 @@ added 3 packages in 2m
 
 将ulp-imagemin从package.json中配置为最新版本8.0.0，然后从项目目录npm install，从而间接升级svgo。
 
+## 八、本地文件更新
+1. instant.page3.0.0 -> instant.page5.2.0
+
+用途：预加载网页，提升访问体验。
+
+升级方法：访问官网[https://instant.page](https://instant.page/)查看最新版本，浏览器直接输入[https://instant.page/5.2.0](https://instant.page/5.2.0)版本号，直接从官网获取代码，保存在本地服务器使用。
+
+## 常用网站
+
+1.npmjs
+
+[https://www.npmjs.com](https://www.npmjs.com/)
+
+2.cdnjs
+
+[https://cdnjs.com](https://cdnjs.com/)
+
+3.jsDelivr
+
+[https://www.jsdelivr.com](https://www.jsdelivr.com/)
+
 
    
