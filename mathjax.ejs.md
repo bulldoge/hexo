@@ -1,6 +1,8 @@
-# MathJax 2.7.1配置文件
+# MathJax 配置文件
 
 ```
+
+<!-- MathJax 2.7.1配置文件 -->
 <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -41,6 +43,44 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-
+```
 
 ```
+<!-- MathJax 3.2.2配置文件 -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+      processEscapes: true,
+      tags: "ams",
+      noundefined: {
+        color: "red",
+        background: "#FFEEEE",
+        size: "90%"
+      },
+      macros: {
+        href: "{}"
+      },
+      autoload: {
+        color: [],
+        colorv2: ['color']
+      },
+      packages: {'[+]': ['noerrors']}
+    },
+    options: {
+      ignoreHtmlClass: "tex2jax_ignore|dno",
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+      processHtmlClass: 'tex2jax_process'
+    },
+    loader: {
+      load: ['input/asciimath', '[tex]/noerrors']
+    }
+  };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+
+```
+
+
+
+
