@@ -77,7 +77,10 @@
     }
   };
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+  <!--可用，且快 https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js-->
+  <!--可用，但慢 https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js-->
+  <!--不可用，会报Nunjucks错误 cdn/mathjax/tex-mml-chtml.js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js" id="MathJax-script"></script>
 
 ```
 
